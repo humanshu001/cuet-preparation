@@ -3,9 +3,7 @@ import "./globals.css";
 import Navbar from "./universal-components/Navbar";
 import Footer from "./universal-components/Footer";
 import Script from "next/script";
-import { Suspense } from "react";
 
-const inter = Inter({ subsets: ["latin"] });
 const quicksand = Quicksand({ subsets: ["latin"] });
 
 export const metadata = {

@@ -1,4 +1,3 @@
-'use client'
 import CourseCard from './all-cards/CourseCard'
 
 export default function Home() {

@@ -46,7 +46,7 @@ export default function Navbar() {
                                     <Avatar txt='HJ' />
                                     Humanshu Jaglan
                                 </Link>
-                            <ul className="dropdown-menu m-auto py-3 px-2 text-center border-none"  style={{backgroundColor:'var(--blue)',boxSizing:'content-box',borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',border:'none'}}>
+                            <ul className="dropdown-menu m-auto py-3 px-2 text-center"  style={{backgroundColor:'var(--blue)',boxSizing:'content-box',borderRadius:'15px',boxShadow:'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',border:'none'}}>
                                 <li><Link className="nav-link text-white no-hover" href="/dashboard">Dashboard</Link></li>
                                 <li><hr className="dropdown-divider m-0" /></li>
                                 <li><Link className="nav-link" style={{color:'var(--orange)'}} href="#">Logout</Link></li>
