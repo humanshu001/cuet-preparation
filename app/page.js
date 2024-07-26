@@ -1,95 +1,99 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client'
+import CourseCard from './all-cards/CourseCard'
 
 export default function Home() {
-  return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  );
+    const data = [
+        {
+          title: 'Mathematics',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Physics',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Chemistry',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Biology',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Computer Science',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'English',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Hindi',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Physical Education',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'History',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Geography',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Political Science',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Economics',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Sociology',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Psychology',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Philosophy',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Business Studies',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Accountancy',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Entrepreneurship',
+          validUpto: '12/12/2022'
+        },
+        {
+          title: 'Informatics Practices',
+          validUpto: '12/12/2022'
+        }
+      ]
+    return (
+        <>
+            <div className="container">
+                <div className="d-flex justify-content-center">
+                    <h1 className="badge" style={{backgroundColor:'var(--blue)', fontSize:'35px'}}>Your Courses</h1>
+                </div>
+                <div className="row d-flex justify-content-center ">
+                {
+                    data.map((item, index) => {
+                    return <CourseCard key={index} subject={item.title} validUpto={item.validUpto}/>
+                    })
+                }
+                </div>
+            </div>
+        </>
+    )
 }
