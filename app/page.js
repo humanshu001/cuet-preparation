@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="d-flex justify-content-center">
                     <h1 className="badge" style={{backgroundColor:'var(--blue)', fontSize:'35px'}}>Your Courses</h1>
                 </div>
-                <div className="row d-flex justify-content-center ">
+                <div className="row d-flex justify-content-center courses">
                 {
                     data.map((item, index) => {
                     return <CourseCard key={index} subject={item.title} validUpto={item.validUpto}/>
