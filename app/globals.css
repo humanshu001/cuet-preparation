@@ -50,12 +50,16 @@ body{
   transition: 0.2s;
 }
 
+.card{
+  border-radius: 20px;
+}
+
 .courses .card {
   position: relative;
   width: 300px;
   height: 180px;
   background-color: var(--blue);
-  border-radius: 10px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;

@@ -82,7 +82,7 @@ export default function Home() {
     return (
         <>
             <div className="container">
-                <div className="d-flex justify-content-center">
+                <div className="d-flex justify-content-start">
                     <h1 className="badge" style={{backgroundColor:'var(--blue)', fontSize:'35px'}}>Purchase Courses</h1>
                 </div>
                 <div className="row d-flex justify-content-center courses">
