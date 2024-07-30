@@ -13,7 +13,7 @@ export default function page() {
           <h1 className="text-center fw-bold text-white">Contact</h1>
           <h4 className="text-center text-white">Any question or remarks? Just a message away!</h4>
         </div>
-        <div className="col-md-12 d-flex">
+        <div className="col-md-12 d-flex contact-card">
           <div className="col-md-5 p-4 py-5" style={{backgroundColor:'var(--blue)',borderRadius:'8px'}}>
             
           <h2 className="mx-4 fw-bold text-white">Contact Information</h2>

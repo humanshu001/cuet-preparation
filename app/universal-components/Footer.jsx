@@ -6,15 +6,12 @@ export default function Footer() {
   return (
     <>
         <div className="container-fluid p-0 foot" style={{backgroundColor:'var(--blue)',color:'white'}}>
-  <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 m-5 mb-0">
+  <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-4 py-5 m-5 mb-0">
     <div className="col mb-3">
       <a href="/" className="d-flex align-items-center mb-3 link-dark text-decoration-none">
         <h1>GU</h1>
       </a>
       <p className="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet veniam exercitationem omnis ullam provident ipsam dolores eaque architecto aliquam facere harum molestiae dolor nesciunt corrupti praesentium fuga, ex dolore quidem in hic</p>
-    </div>
-
-    <div className="col mb-3">
     </div>
 
     <div className="col mb-3 text-center">
@@ -51,11 +48,11 @@ export default function Footer() {
       </ul>
     </div>
   </footer>
-  <div className="border-top d-flex py-3">
-    <div className="col-md-3 text-center"><a href="" className="nav-link">Terms & Conditions</a></div>
-    <div className="col-md-3 text-center"><a href="" className="nav-link">Cancellation/Refund Policy</a></div>
-    <div className="col-md-3 text-center"><a href="" className="nav-link">Privacy Policy</a></div>
-    <div className="col-md-3 text-center"><a href="" className="nav-link">Shipping Policy</a></div>
+  <div className="border-top row-cols-1 row-cols-md-4 row-cols-sm-2 row ">
+    <div className="col-md-3 text-center my-3"><a href="" className="nav-link">Terms & Conditions</a></div>
+    <div className="col-md-3 text-center my-3"><a href="" className="nav-link">Cancellation/Refund Policy</a></div>
+    <div className="col-md-3 text-center my-3"><a href="" className="nav-link">Privacy Policy</a></div>
+    <div className="col-md-3 text-center my-3"><a href="" className="nav-link">Shipping Policy</a></div>
   </div>
   <div className="border-top">
     <div className="container py-3">

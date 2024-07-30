@@ -21,28 +21,28 @@ export default function Navbar() {
                         <div className="navbar-nav"></div>
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/">Home</Link>
+                                <Link className="nav-link text-white mx-2" href="/">Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/courses">Courses</Link>
+                                <Link className="nav-link text-white mx-2" href="/courses">Courses</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/about">About</Link>
+                                <Link className="nav-link text-white mx-2" href="/about">About</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/syllabus">Syllabus</Link>
+                                <Link className="nav-link text-white mx-2" href="/syllabus">Syllabus</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/blogs">Blogs</Link>
+                                <Link className="nav-link text-white mx-2" href="/blogs">Blogs</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/pricing">Pricing</Link>
+                                <Link className="nav-link text-white mx-2" href="/pricing">Pricing</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link text-white mx-3" href="/contact">Contact</Link>
+                                <Link className="nav-link text-white mx-2" href="/contact">Contact</Link>
                             </li>
                             <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle no-hover text-white mx-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <Link className="nav-link dropdown-toggle no-hover text-white mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     <Avatar txt='HJ' />
                                     Humanshu Jaglan
                                 </Link>
