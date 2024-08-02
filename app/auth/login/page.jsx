@@ -13,7 +13,7 @@ export default function page() {
                 <label htmlFor="" className='text-white px-2 fs-5'>Password</label>
                 <input className='form-control mb-4 p-2 fs-5' style={{backgroundColor:'var(--blue)',color:'white',fontWeight:'600'}} type="password" />
                 <div className="text-white mb-2 px-4 card-message">
-                Don't have an account? <Link href='/auth/register' className='text-white'>Sign up</Link>
+                Don&apos;t have an account? <Link href='/auth/register' className='text-white'>Sign up</Link>
                 </div>
                 <div className="d-flex justify-content-center">
                 <button className='btn btn-light rounded-pill px-4 py-3 col-md-4 fw-bold fs-4' style={{color:'var(--blue)'}}>Sign in</button>
